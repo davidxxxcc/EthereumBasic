@@ -7,7 +7,11 @@
 * #### 需要有測試鍊或以太鍊
 * #### 步驟繁雜
 
-#### 
+#### Oracle: 讓合約與外部資料互動
+
+Zeppelin: A framework to build smart constract
+
+
 
 Truffle + Testrpc
 
