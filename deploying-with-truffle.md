@@ -13,6 +13,19 @@ $ npm install truffle@4.0.4
 $ npx truffle init
 ```
 
+You will see some folders and files were created. Our directory should look like:
+
+```
+truffle-experiment/
+├── contracts/
+│ └── Migrations.sol
+├── migrations/
+│ └── 1_initial_migration.js
+├── test/
+├── truffle.js
+└── truffle-config.js
+```
+
 
 
 
