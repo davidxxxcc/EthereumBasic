@@ -2,13 +2,11 @@
 
 Truffle is an Ethereum development framework that will help us debugging, deploying, and testing smart contracts, among other things.
 
-http://truffleframework.com/docs/
-
-
+[http://truffleframework.com/docs/](http://truffleframework.com/docs/)
 
 #### Get start with Truffle
 
-The first thing we’re going to do is to deploy a contract using Truffle. Let's create a new directory for this exercise and run the following commands to install Truffle and initialize our project:
+The first thing we’re going to do is to deploy a contract using Truffle. Let's create a new directory for this exercise and run the following commands to install Truffle and initialize our project. We won’t need a testrpc node running since Truffle already comes with a simulation node for development and testing purposes. 
 
 ```
 $ mkdir truffle-experiment
