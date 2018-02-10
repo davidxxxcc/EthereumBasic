@@ -64,6 +64,19 @@ Saving successful migration to network…
 Saving artifacts…
 ```
 
+We’ll just care about the line`MyToken: 0x345ca3e0...305d9b3e10`, which tells us the address of our deployed token contract. By default, Truffle initializes the simulation node with 10 addresses with fake ETH as we saw when using`testrpc`, and we can access this array via`web3.eth.accounts`. Moreover, it deploys these contracts using the first address of this list \(the one with index 0\), which means that it will be the owner of`MyToken`.
+
+Given that`Web3`is available inside the Truffle console, you can just run the following commands to check the owner’s balance:
+
+```
+truffle(develop)>
+owner = web3.eth.accounts[0]
+truffle(develop)>
+instance = MyToken.at('[DEPLOYED_ADDRESS]')
+truffle(develop)>
+instance.balanceOf(owner)
+```
+
 
 
 
