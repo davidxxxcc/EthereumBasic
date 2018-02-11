@@ -15,6 +15,14 @@ Smart-contract are a way for people all across the globe to do business with eac
 
 Solidity language itself is a tool that we use to generate machine-level code that can execute on the EVM, it's a language with a complier which takes our high-level human-readable code and breaks it down into simple instructions like "put data into a register", "add data from two registers", "jump back to instruction at memory point xxxx", which form the basis of any microprcessor executable program.
 
+### data type
+
+`Uint256`
+
+* [unsigned](https://en.wikipedia.org/wiki/Signedness)\(meaning this type can only represent positive integers, _not _positive **and **negative integers\)
+* `INT`- integer
+* `256`- 256 bits in size
+
 Let's see example 1. The constructor `Hodor`is only invoked only once when the contract that is first deployed on the Ethereum block chain. You can only declare a single contructor for a contract. `msg`.is a global variable and we declare `address`and `string`type of data. Function `greeting`return a constant `string`type while function `setGreeting`only accpet passing `string`type variabble.
 
 example 1
