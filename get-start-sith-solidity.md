@@ -77,5 +77,11 @@ contract DragonStone {
 
 Funciton of Solidity cannot accept or return two dimensional arrays. the string data type of array is implemented as an array of the bytes32 data type.
 
+```
+function Election(string name, uint durationMinutes, string[] candidateNames) {
+
+}
+```
+
 
 
