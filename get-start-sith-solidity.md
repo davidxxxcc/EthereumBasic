@@ -41,7 +41,7 @@ contract Hodor {
 }
 ```
 
-As we can see, we delare `creator`with `public`that allows contracts to acces the current value of field such as `creator()`; Without `public`keyword, no contract could access the value. the `mapping`is like a hash table of key value pairs. The key value data types are defined inside the brackets `()`as `address`keys mapping  to unsigned integer values `uint.`representing the amount owned by an address. `event`are listening some interest of happening and can be listened to either server side or front end.
+As we can see, we delare `creator`with `public`that allows contracts to acces the current value of field such as `creator()`; Without `public`keyword, no contract could access the value. the `mapping`is like a hash table of key value pairs. The key value data types are defined inside the brackets `()`as `address`keys mapping  to unsigned integer values `uint.`representing the amount owned by an address. `event`are listening some interest of happening and can be listened to either server side or front end. As soon as `Delivered `is fired, this function will deliver `from`, `to `and `amount`.
 
 example 2
 
