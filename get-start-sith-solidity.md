@@ -19,7 +19,7 @@ Solidity language itself is a tool that we use to generate machine-level code th
 
 `Uint256`
 
-* [unsigned](https://en.wikipedia.org/wiki/Signedness)\(meaning this type can only represent positive integers, _not _positive **and **negative integers\)
+* [unsigned](https://en.wikipedia.org/wiki/Signedness)\(meaning this type can only represent positive integers, \_not \_positive **and **negative integers\)
 * `INT`- integer
 * `256`- 256 bits in size
 
