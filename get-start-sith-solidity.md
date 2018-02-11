@@ -15,7 +15,7 @@ Smart-contract are a way for people all across the globe to do business with eac
 
 Solidity language itself is a tool that we use to generate machine-level code that can execute on the EVM, it's a language with a complier which takes our high-level human-readable code and breaks it down into simple instructions like "put data into a register", "add data from two registers", "jump back to instruction at memory point xxxx", which form the basis of any microprcessor executable program.
 
-Let's see example 1. The constructor `Hodor`is only invoked only once when the contract that is first deployed on the Ethereum block chain. You can only declare a single contructor for a contract. `msg`.is a global variable and we declare `address`and `string`type of data. 
+Let's see example 1. The constructor `Hodor`is only invoked only once when the contract that is first deployed on the Ethereum block chain. You can only declare a single contructor for a contract. `msg`.is a global variable and we declare `address`and `string`type of data.
 
 example 1
 
@@ -41,9 +41,9 @@ contract Hodor {
 }
 ```
 
-As we can see, we delare `creator `with `public `that allows contracts to acces the current value of field such as `creator()`;
+As we can see, we delare `creator`with `public`that allows contracts to acces the current value of field such as `creator()`;
 
-Without `public `keyword, no contract could access the value. the `mapping `is like a hash table of key value pairs.
+Without `public`keyword, no contract could access the value. the `mapping`is like a hash table of key value pairs. The key value data types are defined inside the brackeds `()` 
 
 example 2
 
