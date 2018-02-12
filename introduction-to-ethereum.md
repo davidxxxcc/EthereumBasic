@@ -4,7 +4,7 @@ Let’s start by defining Ethereum, or at least, what I understood about it afte
 
 **Smart Contracts**
 
-Smart contracts are just computer programs. We build Ethereum applications based on smart contracts. Bear in mind that even though this concept comes up with Ethereum these days, it was actually proposed by Nick Szabo in 1996 :\)
+Smart contracts are just computer programs. We build Ethereum applications based on smart contracts. Bear in mind that even though this concept comes up with Ethereum these days, it was actually proposed by Nick Szabo in 1996 :\)
 
 **Ethereum Virtual Machine**
 
@@ -13,6 +13,10 @@ The EVM is the sandboxed runtime and completely isolated environment for smart c
 **Gas**
 
 Given that Ethereum is a distributed platform, there must be a way to limit the resources available to a given smart contract, otherwise it could starve the whole network’s computing power. Gas solves that issue by fixing a cost for every instruction executed in the EVM. One important thing, is that every transaction is sent to the network with a “gas budget”. If it runs out, the transaction will fail but still gets mined into the blockchain.
+
+##### Who receives this Gas ether that we spend on every transaction
+
+The nodes that mine the blockchain. It is payment for processing the transaction. It will also help prioritize processing though I am not sure if this is in place yet. Miners would process transactions paying a higher rate for gas before transactions paying a lower rate. So, you could pay to get your transactions mined faster. 
 
 **Ether \(ETH\)**
 
