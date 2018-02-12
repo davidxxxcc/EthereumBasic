@@ -23,7 +23,7 @@ Solidity language itself is a tool that we use to generate machine-level code th
 * `INT`- integer
 * `256`- 256 bits in size
 
-![](/assets/function format)
+![](/assets/function format)![](/assets/function type)
 
 Let's see example 1. The constructor `Hodor`is only invoked only once when the contract that is first deployed on the Ethereum block chain. You can only declare a single contructor for a contract. `msg`.is a global variable and we declare `address`and `string`type of data. Function `greeting`return a constant `string`type while function `setGreeting`only accpet passing `string`type variabble.
 
