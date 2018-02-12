@@ -23,7 +23,9 @@ Solidity language itself is a tool that we use to generate machine-level code th
 * `INT`- integer
 * `256`- 256 bits in size
 
-![](/assets/function format)![](/assets/function type)
+### ![](/assets/function format)![](/assets/function type)
+
+### Difference between Calling a Function and Sending a Transaction to a Function
 
 Let's see the below example code and the running contract functions.
 
