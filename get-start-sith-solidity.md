@@ -25,29 +25,25 @@ Solidity language itself is a tool that we use to generate machine-level code th
 
 ![](/assets/function format)![](/assets/function type)
 
-
+Let's see the below example code and the running contract functions.
 
 ```
 pragma solidity ^0.4.17;
 contract Inbox {
     string public message;
-    
+
     function Inbox(string initialMessage) public {
         message = initialMessage;
     }
-    
+
     function setMeesage(string newMeesage) public {
         message = newMeesage;
     }
-    
+
 }
 ```
 
-
-
-
-
-
+![](/assets/running function)
 
 Let's see example 1. The constructor `Hodor`is only invoked only once when the contract that is first deployed on the Ethereum block chain. You can only declare a single contructor for a contract. `msg`.is a global variable and we declare `address`and `string`type of data. Function `greeting`return a constant `string`type while function `setGreeting`only accpet passing `string`type variabble.
 
