@@ -27,6 +27,8 @@ Solidity language itself is a tool that we use to generate machine-level code th
 
 Let's see the below example code and the running contract functions.
 
+If we want to change data in Ethereum block chain, this action need to generate a transaction to finish.
+
 ```
 pragma solidity ^0.4.17;
 contract Inbox {
