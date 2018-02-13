@@ -9,4 +9,5 @@
 * [Deploying with Truffle](deploying-with-truffle.md)
 * [Developing with Node.js](developing-with-nodejs.md)
   * [Web3](developing-with-nodejs/web3.md)
+  * [Assert](developing-with-nodejs/assert.md)
 
