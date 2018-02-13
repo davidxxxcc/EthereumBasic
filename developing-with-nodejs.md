@@ -34,7 +34,7 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 
 ### Create a file `Inbox.test.js` in `test` folder
 
-Create a `Web3 `instance using `ganche.provider`
+Create a `Web3`instance using `ganche.provider`
 
 ```
 const assert = require('assert');
@@ -44,6 +44,12 @@ const ganache = require('ganache-cli');
 const Web3 = require('web3');
 const web3 = new Web3(ganache.provider());
 ```
+
+### Mocha
+
+Mocha is a testing framework
+
+![](/assets/mochaFunctions)
 
 
 
