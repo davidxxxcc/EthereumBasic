@@ -45,11 +45,7 @@ const Web3 = require('web3');
 const web3 = new Web3(ganache.provider());
 ```
 
-### Mocha
-
-Mocha is a testing framework
-
-![](/assets/mochaFunctions)
+### 
 
 
 

@@ -10,4 +10,5 @@
 * [Developing with Node.js](developing-with-nodejs.md)
   * [Web3](developing-with-nodejs/web3.md)
   * [Assert](developing-with-nodejs/assert.md)
+  * [Mocha](developing-with-nodejs/mocha.md)
 
