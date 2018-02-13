@@ -8,4 +8,5 @@
 * [Ethereum- Tools](ethereum-tools.md)
 * [Deploying with Truffle](deploying-with-truffle.md)
 * [Developing with Node.js](developing-with-nodejs.md)
+  * [Web3](developing-with-nodejs/web3.md)
 
