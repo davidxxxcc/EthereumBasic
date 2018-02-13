@@ -7,4 +7,5 @@
 * [合約開發工具介紹](he-yue-kai-fa-gong-ju-jie-shao.md)
 * [Ethereum- Tools](ethereum-tools.md)
 * [Deploying with Truffle](deploying-with-truffle.md)
+* [Developing with Node.js](developing-with-nodejs.md)
 
