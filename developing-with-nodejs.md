@@ -34,7 +34,7 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 
 ### Create a file `Inbox.test.js` in `test` folder
 
-Create a `Web3`instance using `ganche.provider ` and Import the ABI interface & bytecode.
+Create a `Web3`instance using `ganche.provider` and import the ABI interface & bytecode.
 
 ```
 const assert = require('assert');
@@ -76,7 +76,6 @@ describe('Inbox', () => {
     assert.equal(message, 'bye');
   });
 });
-
 ```
 
 ### 

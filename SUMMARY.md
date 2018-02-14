@@ -12,5 +12,6 @@
   * [Assert](developing-with-nodejs/assert.md)
   * [Mocha](developing-with-nodejs/mocha.md)
   * [Promises](developing-with-nodejs/promises.md)
+  * [Async](developing-with-nodejs/async.md)
 * [Resources](resources.md)
 
