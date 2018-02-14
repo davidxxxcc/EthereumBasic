@@ -34,11 +34,12 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 
 ### Create a file `Inbox.test.js` in `test` folder
 
-Create a `Web3`instance using `ganche.provider` and import the ABI interface & bytecode.
+* Create a `Web3`instance using `ganche.provider` and import the ABI interface & bytecode.
 
-In `beforeEach `function we use `async `to assign `accounts `and create inbox instance from `web3.eth.Contract`.
+* In `beforeEach`function we use `async`to assign `accounts`and create inbox instance from `web3.eth.Contract`.
 
-Then we deploy  the contract by using `.deploy` and assign `bytecode `to generate contract and pass parameter`aruments `into the contructor.
+* Then we deploy  the contract by using `.deploy` and assign `bytecode`to generate contract and pass parameter`aruments`into the contructor.
+* Finally we can use `.send` to define which `accounts[i] `to build up the contract and the maximum amount of `gas `we can use to deploy the contract.
 
 ```
 const assert = require('assert');
