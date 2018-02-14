@@ -32,7 +32,7 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 
 ![](/assets/solidity compiler)
 
-### Create a file `Inbox.test.js` in `test` folder
+### Create a file `Inbox.test.js` in `test` folder to test localhost vitual ethereum network
 
 * Create a `Web3`instance using `ganche.provider` and import the ABI interface & bytecode.
 
@@ -41,7 +41,8 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 * Then we deploy  the contract by using `.deploy` and assign `bytecode`to generate contract and pass parameter`aruments`into the contructor.
 
 * Finally we can use `.send` to define which `accounts[i]`to build up the contract and the maximum amount of `gas`we can use to deploy the contract.
-* Let's test our contract by using `mocha describe `shown as below.
+
+* Let's test our contract by using `mocha describe`shown as below.
 
 ```
 const assert = require('assert');
