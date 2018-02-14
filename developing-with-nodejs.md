@@ -88,7 +88,9 @@ describe('Inbox', () => {
 
 ### 
 
-### Createa a file deploy.js in root folder to test online
+### Createa a file deploy.js in root folder to test Rinkeby network online
+
+![](/assets/rinkeby)
 
 Use npm install to setup testing environment
 
