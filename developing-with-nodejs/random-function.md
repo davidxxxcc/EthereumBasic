@@ -38,3 +38,9 @@ contract Lottery{
 
 
 
+### Use the Modulo operator to obtain number
+
+![](/assets/modulo)
+
+
+
