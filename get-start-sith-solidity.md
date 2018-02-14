@@ -29,6 +29,8 @@ Solidity language itself is a tool that we use to generate machine-level code th
 
 string is a array in Solidity.
 
+we couldn't declare `["ABC","CDR"]` in Soidlity
+
 ![](/assets/reftype)
 
 ### Function Type
