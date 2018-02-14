@@ -39,7 +39,9 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 * In `beforeEach`function we use `async`to assign `accounts`and create inbox instance from `web3.eth.Contract`.
 
 * Then we deploy  the contract by using `.deploy` and assign `bytecode`to generate contract and pass parameter`aruments`into the contructor.
-* Finally we can use `.send` to define which `accounts[i] `to build up the contract and the maximum amount of `gas `we can use to deploy the contract.
+
+* Finally we can use `.send` to define which `accounts[i]`to build up the contract and the maximum amount of `gas`we can use to deploy the contract.
+* Let's test our contract by using `mocha describe `shown as below.
 
 ```
 const assert = require('assert');
