@@ -88,7 +88,42 @@ describe('Inbox', () => {
 
 ### 
 
-### Createa a file deploy.js in root folder to test online 
+### Createa a file deploy.js in root folder to test online
+
+Use npm install to setup testing environment
+
+```
+npm install truffle-hdwallet-provider
+```
+
+
+
+```
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const Web3 = require('web3');
+const { interface, bytecode} = require('./compile');
+
+const provider = new HDWalletProvider(
+  '​course advice burden artefact record echo please drink govern orient abandon flock',
+  'https://rinkeby.infura.io/RtcHsbnblvLKSTE0QsTe'
+);
+
+const web3 = new Web3(provider);
+
+const deploy = async () => {
+  const accounts = await web3.eth.getAccounts();
+  console.log('Attempting to deploy from account', accounts[0]);
+
+  const result = await new web3.eth.Contract(JSON.parse(interface))
+    .deploy({ data: bytecode, arguments: ['Hi there!'] })
+    .send({ gas: '1000000', from: accounts[0] });
+
+  console.log('Contract deployed to', result.options.address);
+};
+
+deploy();
+
+```
 
 
 
