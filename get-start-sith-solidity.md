@@ -23,6 +23,8 @@ Solidity language itself is a tool that we use to generate machine-level code th
 * `INT`- integer
 * `256`- 256 bits in size
 
+![](/assets/basicTypes)
+
 ### ![](/assets/function format)![](/assets/function type)
 
 ### Difference between Calling a Function and Sending a Transaction to a Function
@@ -48,8 +50,6 @@ contract Inbox {
 ```
 
 ![](/assets/running function)
-
-
 
 ### Boilerplate Design in Solidity![](/assets/Boilerplate Design)
 
