@@ -23,7 +23,13 @@ Solidity language itself is a tool that we use to generate machine-level code th
 * `INT`- integer
 * `256`- 256 bits in size
 
-![](/assets/basicTypes)![](/assets/int)![](/assets/uint)
+### ![](/assets/basicTypes)![](/assets/int)![](/assets/uint)
+
+### Reference Type
+
+![](/assets/reftype)
+
+### Function Type
 
 ### ![](/assets/function format)![](/assets/function type)
 
