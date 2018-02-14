@@ -27,6 +27,8 @@ Solidity language itself is a tool that we use to generate machine-level code th
 
 ### Reference Type
 
+string is a array in Solidity.
+
 ![](/assets/reftype)
 
 ### Function Type
