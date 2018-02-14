@@ -13,5 +13,6 @@
   * [Mocha](developing-with-nodejs/mocha.md)
   * [Promises](developing-with-nodejs/promises.md)
   * [Async](developing-with-nodejs/async.md)
+  * [Global variable](developing-with-nodejs/global-variable.md)
 * [Resources](resources.md)
 
