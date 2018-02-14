@@ -36,6 +36,10 @@ module.exports = solc.compile(source, 1).contracts[':Inbox'];
 
 Create a `Web3`instance using `ganche.provider` and import the ABI interface & bytecode.
 
+In `beforeEach `function we use `async `to assign `accounts `and create inbox instance from `web3.eth.Contract`.
+
+Then we deploy  the contract by using `.deploy` and assign `bytecode `to generate contract and pass parameter`aruments `into the contructor.
+
 ```
 const assert = require('assert');
 const ganache = require('ganache-cli');
