@@ -96,7 +96,9 @@ Use npm install to setup testing environment
 npm install truffle-hdwallet-provider
 ```
 
+Setup your test Ethereum network in Rinkeby\( we use INFURA\) and enter your Mnemonic to create provider instance.
 
+Deploy the contract as below.
 
 ```
 const HDWalletProvider = require('truffle-hdwallet-provider');
@@ -122,7 +124,6 @@ const deploy = async () => {
 };
 
 deploy();
-
 ```
 
 
