@@ -16,5 +16,7 @@ tx.gasprice (uint): gas price of the transaction
 tx.origin (address): sender of the transaction (full call chain)
 ```
 
-![](/assets/msg)https://solidity.readthedocs.io/en/develop/units-and-global-variables.html\#special-variables-and-functions
+![](/assets/msg)[https://solidity.readthedocs.io/en/develop/units-and-global-variables.html\#special-variables-and-functions](https://solidity.readthedocs.io/en/develop/units-and-global-variables.html#special-variables-and-functions)
+
+http://solidity.readthedocs.io/en/develop/units-and-global-variables.html
 
