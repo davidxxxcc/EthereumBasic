@@ -16,4 +16,5 @@
   * [Global variable](developing-with-nodejs/global-variable.md)
   * [Random function](developing-with-nodejs/random-function.md)
 * [Resources](resources.md)
+* [platform](platform.md)
 
