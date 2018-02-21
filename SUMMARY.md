@@ -17,4 +17,5 @@
   * [Random function](developing-with-nodejs/random-function.md)
 * [Resources](resources.md)
 * [platform](platform.md)
+* [Ethereum Architecture](ethereum-architecture.md)
 
