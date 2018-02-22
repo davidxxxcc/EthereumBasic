@@ -19,5 +19,11 @@ With this code, all accounts are unfrozen by default but the owner can set any o
         require(!frozenAccount[msg.sender]);
 ```
 
+Now any account that is frozen will still have their funds intact, but won't be able to move them. All accounts are unfrozen by default until you freeze them, but you can easily revert that behavior into a whitelist where you need to manually approve every account. Just rename **frozenAccount **into **approvedAccount **and change the last line to:
+
+```
+require(approvedAccount[msg.sender]);
+```
+
 
 
