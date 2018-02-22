@@ -7,6 +7,7 @@
   * [Inheritance](get-start-sith-solidity/inheritance.md)
   * [Central Mint](get-start-sith-solidity/central-mint.md)
   * [Freezing of Assets](get-start-sith-solidity/freezing-of-assets.md)
+  * [AUTOMATIC SELLING AND BUYING](get-start-sith-solidity/automatic-selling-and-buying.md)
 * [Developing with Node.js](developing-with-nodejs.md)
   * [Workflow](he-yue-kai-fa-gong-ju-jie-shao.md)
   * [Assert](developing-with-nodejs/assert.md)
