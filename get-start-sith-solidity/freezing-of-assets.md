@@ -2,5 +2,15 @@ Depending on your use case, you might need to have some regulatory hurdles on wh
 
 Add this variable and function anywhere inside the contract. You can put them anywhere but for good practice we recommend you put the mappings with the other mappings and events with the other events.
 
+```
+    mapping (address => bool) public frozenAccount;
+    event FrozenFunds(address target, bool frozen);
+
+    function freezeAccount(address target, bool freeze) onlyOwner {
+        frozenAccount[target] = freeze;
+        FrozenFunds(target, freeze);
+    }
+```
+
 
 
