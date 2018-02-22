@@ -4,6 +4,7 @@
 * [Ethereum Framwork](README.md)
 * [Introduction to Ethereum](introduction-to-ethereum.md)
 * [Solidity](get-start-sith-solidity.md)
+  * [Inheritance](get-start-sith-solidity/inheritance.md)
 * [Developing with Node.js](developing-with-nodejs.md)
   * [Workflow](he-yue-kai-fa-gong-ju-jie-shao.md)
   * [Assert](developing-with-nodejs/assert.md)
