@@ -13,7 +13,17 @@ First, we need to add a variable to store the **totalSupply **and assign it to o
             ...
         }
         ...
-   
+```
+
+Now let's add a new function finally that will enable the owner to create new tokens:
+
+```
+    function mintToken(address target, uint256 mintedAmount) onlyOwner {
+        balanceOf[target] += mintedAmount;
+        totalSupply += mintedAmount;
+        Transfer(0, owner, mintedAmount);
+        Transfer(owner, target, mintedAmount);
+    }
 ```
 
 
