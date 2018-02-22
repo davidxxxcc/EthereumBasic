@@ -23,3 +23,12 @@ Inheritance allows a contract to acquire properties of a parent contract, withou
 
 
 
+This creates a very basic contract that doesn't do anything except define some generic functions about a contract that can be "owned". Now the next step is just to add the text _is owned _to your contract:
+
+```
+    contract MyToken is owned {
+        /* the rest of the contract as usual */
+```
+
+
+
