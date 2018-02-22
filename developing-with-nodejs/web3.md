@@ -1,4 +1,4 @@
-### Web3 Versioning
+### 
 
 #### Web3 module
 
@@ -24,7 +24,7 @@ provider = new Web3.providers.HttpProvider("http://localhost:8545")
 web3 = new Web3(provider)
 ```
 
-
+### Web3 Versioning
 
 We use the newer version of Web3 in order to support for promises.![](/assets/version)
 
