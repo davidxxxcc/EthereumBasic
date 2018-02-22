@@ -131,20 +131,10 @@ function Election(string name, uint durationMinutes, string[] candidateNames) {
 }
 ```
 
-
-
 Finally, we now need something called **Events**. These are special, empty functions that you call to help clients like the Ethereum Wallet keep track of activities happening in the contract. Events should start with a capital letter. Add this line at the beginning of the contract to declare the event:
 
 ```
-event
-Transfer
-(
-address indexed 
-from
-, address indexed to, uint256 
-value
-)
-;
+event Transfer ( address indexed from, address indexed to, uint256 value);
 ```
 
 
