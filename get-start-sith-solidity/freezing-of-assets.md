@@ -12,5 +12,12 @@ Add this variable and function anywhere inside the contract. You can put them an
     }
 ```
 
+With this code, all accounts are unfrozen by default but the owner can set any of them into a freeze state by calling **Freeze Account **. Unfortunately, freezing has no practical effect because we haven't added anything to the transfer function. We are changing that now:
+
+```
+ function transfer(address _to, uint256 _value) {
+        require(!frozenAccount[msg.sender]);
+```
+
 
 
