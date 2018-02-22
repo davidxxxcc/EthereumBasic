@@ -1,6 +1,4 @@
-### 
-
-#### Web3 module
+### Web3 module
 
 web3.js works with any Ethereum node, which exposes an RPC\(remote procedure call\) layer.
 
