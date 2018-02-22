@@ -26,5 +26,5 @@ Now let's add a new function finally that will enable the owner to create new to
     }
 ```
 
-
+Notice the modifier **onlyOwner **on the end of the function name. This means that this function will be rewritten at compilation to inherit the code from the **modifier onlyOwner **we had defined before. This function's code will be inserted where there's an underline on the modifier function, meaning that this particular function can only be called by the account that is set as the owner. Just add this to a contract with an **owner **modifier and you'll be able to create more coins.
 
