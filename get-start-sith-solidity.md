@@ -137,5 +137,9 @@ Finally, we now need something called **Events**. These are special, empty funct
 event Transfer ( address indexed from, address indexed to, uint256 value);
 ```
 
+### msg.value
+
+This is what the crontact receive in ethereum \(what the sender of the transaction pay exclude gas and miner fee\). It is in wei \(1 ethereum = 10000000000000000000 wei \(10^18\)\) wei is like satoshi a subunit more precise.
+
 
 
