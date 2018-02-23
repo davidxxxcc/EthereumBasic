@@ -145,3 +145,9 @@ It is part of the transaction, from the Ethereum Yellow Paper, section 4.2 "The 
 
 From a contract you get the value with the opcode CALLVALUE \(0x34\), section H.2 "Instruction Set", table "30s Environmental Information".
 
+
+
+`msg.value`is the amount of ETH sent to a`payablepublic`method in a contract.
+
+`this.balance`is the amount of ETH stored in the contract.
+
