@@ -141,5 +141,7 @@ event Transfer ( address indexed from, address indexed to, uint256 value);
 
 This is what the crontact receive in ethereum \(what the sender of the transaction pay exclude gas and miner fee\). It is in wei \(1 ethereum = 10000000000000000000 wei \(10^18\)\) wei is like satoshi a subunit more precise.
 
+It is part of the transaction, from the Ethereum Yellow Paper, section 4.2 "The transaction" it has a field named 'value'.
 
+From a contract you get the value with the opcode CALLVALUE \(0x34\), section H.2 "Instruction Set", table "30s Environmental Information".
 
