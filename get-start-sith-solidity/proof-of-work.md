@@ -10,5 +10,15 @@ There are some ways to tie your coin supply to a mathematical formula. One of th
 
 It's also possible to add a mathematical formula, so that anyone who can do math can win a reward. On this next example you have to calculate the cubic root of the current challenge gets a point and the right to set the next challenge:
 
+```
+    uint currentChallenge = 1; // Can you figure out the cubic root of this number?
+
+    function rewardMathGeniuses(uint answerToCurrentReward, uint nextChallenge) {
+        require(answerToCurrentReward**3 == currentChallenge); // If answer is wrong do not continue
+        balanceOf[msg.sender] += 1;         // Reward the player
+        currentChallenge = nextChallenge;   // Set the next challenge
+    }
+```
+
 
 
