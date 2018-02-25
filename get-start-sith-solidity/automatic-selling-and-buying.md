@@ -37,5 +37,11 @@ The next step is making the buy and sell functions:
     }
 ```
 
+Notice that this will not create new tokens but change the balance the contract owns. The contract can hold both its own tokens and Ether and the owner of the contract, while it can set prices or in some cases create new tokens \(if applicable\) it cannot touch the bank's tokens or Ether. The only way this contract can move funds is by selling and buying them.
 
+**Note**Buy and sell "prices" are not set in Ether, but in_wei_the minimum currency of the system \(equivalent to the cent in the Euro and Dollar, or the Satoshi in Bitcoin\). One Ether is 1000000000000000000 wei. So when setting prices for your token in Ether, add 18 zeros at the end.
+
+When creating the contract,**send enough Ether to it so that it can buy back all the tokens on the market**otherwise your contract will be insolvent and your users won't be able to sell their tokens.
+
+The previous examples, of course, describe a contract with a single central buyer and seller, a much more interesting contract would allow a market where anyone can bid different prices, or maybe it would load the prices directly from an external source.
 
