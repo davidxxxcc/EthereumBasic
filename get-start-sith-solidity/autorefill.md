@@ -32,16 +32,5 @@ You can also instead change it so that the fee is paid forward to the receiver b
     }
 ```
 
-You can also instead change it so that the fee is paid forward to the receiver by the sender:
-
-```
-    /* Send coins */
-    function transfer(address _to, uint256 _value) {
-        ...
-        if(_to.balance<minBalanceForAccounts)
-            _to.send(sell((minBalanceForAccounts - _to.balance) / sellPrice));
-    }
-```
-
 
 
