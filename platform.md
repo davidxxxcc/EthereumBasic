@@ -34,11 +34,15 @@ ERC20 有在線錢包 MyEtherWallet，以太坊官方圖形界面錢包 Mist，P
 
 A cryptocurrency wallet is a software program that stores private and public keys and interacts with various[blockchain](http://blockgeeks.com/guides/what-is-blockchain-technology/)to enable users to send and receive digital currency and monitor their balance. If you want to use[Bitcoin](http://blockgeeks.com/guides/what-is-bitcoin-a-step-by-step-guide/)or any other[cryptocurrency](http://blockgeeks.com/guides/what-is-cryptocurrency/), you will need to have a digital wallet.
 
-
-
 Millions of people use cryptocurrency wallets, but there is considerable misunderstanding about how they work. Unlike traditional ‘pocket’ wallets, digital wallets don’t store currency. In fact, currencies don’t get stored in any single location or exist anywhere in any physical form. All that exists are records of transactions stored on the
 
 [blockchain](http://blockgeeks.com/guides/what-is-blockchain-technology/)
+
+
+
+## **What are the different types of Cryptocurrencywallets?**
+
+There are several types of wallets that provide different ways to store and access your digital currency. Wallets can be broken down into three distinct categories – software, hardware, and paper. Software wallets can be a desktop, mobile or online.
 
 .
 
