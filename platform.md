@@ -9,31 +9,18 @@ EOS
 
 CoinBase
 
-
-
 The following wallets are known to be compatible with Ethereum tokens \(ERC-20 standard\):
 
-* [MyEtherWallet](https://www.myetherwallet.com/)
-  \(no download needed\)
-* [MetaMask](https://metamask.io/)
-  \(Firefox and Chrome browser addon\)
-  **Recommended**
-* [Mist](https://github.com/ethereum/mist/releases)
-  \(Desktop\)
-* [Parity](https://ethcore.io/parity.html)
-  \(Desktop\)
-* [imToken](https://itunes.apple.com/us/app/imtoken/id1153230571?ls=1&mt=8)
-  \(iPhone\)
-* [imToken](https://token.im/)
-  \(Android\)
-* [Trust](https://itunes.apple.com/us/app/trust-ethereum-wallet/id1288339409)
-  \(iPhone\)
-* [Trust](https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp)
-  \(Android\)
-* [Cipher](https://itunes.apple.com/app/cipher-browser-for-ethereum/id1294572970?ls=1&mt=8)
-  \(iPhone\)
-* [Cipher](https://play.google.com/store/apps/details?id=com.cipherbrowser.cipher)
-  \(Android\)
+* [MyEtherWallet](https://www.myetherwallet.com/)\(no download needed\)
+* [MetaMask](https://metamask.io/)\(Firefox and Chrome browser addon\)**Recommended**
+* [Mist](https://github.com/ethereum/mist/releases)\(Desktop\)
+* [Parity](https://ethcore.io/parity.html)\(Desktop\)
+* [imToken](https://itunes.apple.com/us/app/imtoken/id1153230571?ls=1&mt=8)\(iPhone\)
+* [imToken](https://token.im/)\(Android\)
+* [Trust](https://itunes.apple.com/us/app/trust-ethereum-wallet/id1288339409)\(iPhone\)
+* [Trust](https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp)\(Android\)
+* [Cipher](https://itunes.apple.com/app/cipher-browser-for-ethereum/id1294572970?ls=1&mt=8)\(iPhone\)
+* [Cipher](https://play.google.com/store/apps/details?id=com.cipherbrowser.cipher)\(Android\)
 
 ### [Coinbase: Buy/Sell Digital Currency](https://www.coinbase.com/)
 
