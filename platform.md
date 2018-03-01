@@ -12,7 +12,7 @@ CoinBase
 The following wallets are known to be compatible with Ethereum tokens \(ERC-20 standard\):
 
 * [MyEtherWallet](https://www.myetherwallet.com/)\(no download needed\)
-* [MetaMask](https://metamask.io/)\(Firefox and Chrome browser addon\)**Recommended**
+* [MetaMask](https://metamask.io/)\(Firefox and Chrome browser addon\) **Recommended**
 * [Mist](https://github.com/ethereum/mist/releases)\(Desktop\)
 * [Parity](https://ethcore.io/parity.html)\(Desktop\)
 * [imToken](https://itunes.apple.com/us/app/imtoken/id1153230571?ls=1&mt=8)\(iPhone\)
