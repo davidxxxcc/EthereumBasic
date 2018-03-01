@@ -1,4 +1,4 @@
-over the coin
+https://joyso.io/
 
 EOS
 
@@ -37,8 +37,6 @@ A cryptocurrency wallet is a software program that stores private and public key
 Millions of people use cryptocurrency wallets, but there is considerable misunderstanding about how they work. Unlike traditional ‘pocket’ wallets, digital wallets don’t store currency. In fact, currencies don’t get stored in any single location or exist anywhere in any physical form. All that exists are records of transactions stored on the
 
 [blockchain](http://blockgeeks.com/guides/what-is-blockchain-technology/)
-
-
 
 ## **What are the different types of Cryptocurrencywallets?**
 
