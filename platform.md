@@ -1,4 +1,8 @@
-https://joyso.io/
+問題
+
+* 不同的虛擬貨幣有不同的錢包地址嗎?
+* * 
+[https://joyso.io/](https://joyso.io/)
 
 EOS
 
