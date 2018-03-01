@@ -28,13 +28,17 @@ how to integrate
 
 钱包不一定需要包含完整的区块链数据，不包含区块链数据的钱包我们称之为轻钱包（Light Weight Wallet）。对于个人而言，轻钱包完全可以满足需求。
 
-
-
 ERC20 有在線錢包 MyEtherWallet，以太坊官方圖形界面錢包 Mist，Parity 錢包，Exodus 錢包，imToken 錢包，Jaxx 錢包，MetaMask 瀏覽器插件錢包，硬件錢包 Ledger Nano S、Trezor、KeepKey 等。目前體驗比較好的 PC/Mac 錢包有 Mist 官方錢包，不過這個需要同步區塊鏈所有節點數據，如果想用輕錢包，可以考慮 Jaxx。iOS/Android 體較好的錢包有 imToken 和 Jaxx。體驗較好的 Web 錢包有 MyEtherWallet，還有基於瀏覽器（如 Chrome、Firefox）插件的 MetaMask。
-
-
 
 ## What is a Cryptocurrency Wallet?
 
 A cryptocurrency wallet is a software program that stores private and public keys and interacts with various[blockchain](http://blockgeeks.com/guides/what-is-blockchain-technology/)to enable users to send and receive digital currency and monitor their balance. If you want to use[Bitcoin](http://blockgeeks.com/guides/what-is-bitcoin-a-step-by-step-guide/)or any other[cryptocurrency](http://blockgeeks.com/guides/what-is-cryptocurrency/), you will need to have a digital wallet.
+
+
+
+Millions of people use cryptocurrency wallets, but there is considerable misunderstanding about how they work. Unlike traditional ‘pocket’ wallets, digital wallets don’t store currency. In fact, currencies don’t get stored in any single location or exist anywhere in any physical form. All that exists are records of transactions stored on the
+
+[blockchain](http://blockgeeks.com/guides/what-is-blockchain-technology/)
+
+.
 
