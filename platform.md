@@ -1,5 +1,13 @@
 問題
 
+* ERC20 token 錢包是否通用
+
+* exchange bitcoin litecoin
+
+* 平台如何整合不同錢包
+
+
+
 * 不同的虛擬貨幣有不同的錢包地址嗎?
 * Coin to coin 電子錢包
 * 有沒有ERC20 的token交易所?
@@ -28,13 +36,9 @@ The following wallets are known to be compatible with Ethereum tokens \(ERC-20 s
 
 [https://medium.com/taipei-ethereum-meetup/erc20-token使用手冊-3d7871c58bea](https://medium.com/taipei-ethereum-meetup/erc20-token使用手冊-3d7871c58bea)
 
-ERC20 token 錢包是否通用
 
-exchange bitcoin litecoin
 
-平台如何整合不同錢包
 
-how to integrate
 
 1. BTC、ETH、LTC 都有自己的錢包，ERC20 的 Token 有自己的錢包嗎?
 
