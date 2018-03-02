@@ -10,15 +10,11 @@ Trading pairs
 
 coinmarket cap
 
-
-
 錢包 gas消費過高問題
 
-https://0xproject.com/
+[https://0xproject.com/](https://0xproject.com/)
 
-
-
-
+https://coinmarketcap.com/
 
 問題
 
