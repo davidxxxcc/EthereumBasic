@@ -24,4 +24,5 @@
 * [Resources](resources.md)
 * [Ethereum Architecture](ethereum-architecture.md)
 * [Notes](platform.md)
+* [Wallet](wallet.md)
 

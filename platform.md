@@ -1,3 +1,7 @@
+
+
+
+
 USDT基礎貨幣
 
 stable-coin
@@ -14,7 +18,7 @@ coinmarket cap
 
 [https://0xproject.com/](https://0xproject.com/)
 
-https://coinmarketcap.com/
+[https://coinmarketcap.com/](https://coinmarketcap.com/)
 
 問題
 
