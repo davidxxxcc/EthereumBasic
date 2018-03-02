@@ -1,3 +1,25 @@
+USDT基礎貨幣
+
+stable-coin
+
+collateral 背書
+
+Dyecoin 追蹤美元, 根據ETH價格
+
+Trading pairs
+
+coinmarket cap
+
+
+
+錢包 gas消費過高問題
+
+https://0xproject.com/
+
+
+
+
+
 問題
 
 * ERC20 token 錢包是否通用
@@ -5,8 +27,6 @@
 * exchange bitcoin litecoin
 
 * 平台如何整合不同錢包
-
-
 
 自己想到的問題
 
@@ -17,7 +37,7 @@
 
 EOS
 
-CoinBase
+CoinBaser
 
 The following wallets are known to be compatible with Ethereum tokens \(ERC-20 standard\):
 
